@@ -1,4 +1,4 @@
-package com.ccpourtoujours.eurekaconsumer.controller;
+package com.ccpourtoujours.eurekaclient.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DiscoverClientController {
+
     @Autowired
     private DiscoveryClient discoveryClient;
 

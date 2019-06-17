@@ -1,9 +1,10 @@
+
 spring:
   application:
-    name: eureka-consumer
+    name: eureka-client
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:19107/eureka/
 server:
-  port: 8899
+  port: 7788
