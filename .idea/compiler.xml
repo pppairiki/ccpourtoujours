@@ -9,11 +9,13 @@
         <module name="eureka-client" />
         <module name="eureka-server" />
         <module name="eureka-consumer" />
+        <module name="eureka-consumer-ribbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-client" target="1.8" />
       <module name="eureka-consumer" target="1.8" />
+      <module name="eureka-consumer-ribbon" target="1.8" />
       <module name="eureka-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-client" options="" />
       <module name="eureka-consumer" options="" />
+      <module name="eureka-consumer-ribbon" options="" />
       <module name="eureka-server" options="" />
     </option>
   </component>

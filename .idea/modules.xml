@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/ccpourtoujours.iml" filepath="$PROJECT_DIR$/.idea/ccpourtoujours.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-consumer-ribbon/eureka-consumer-ribbon.iml" filepath="$PROJECT_DIR$/eureka-consumer-ribbon/eureka-consumer-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
     </modules>
   </component>
