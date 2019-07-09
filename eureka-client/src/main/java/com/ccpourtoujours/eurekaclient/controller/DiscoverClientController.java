@@ -13,11 +13,11 @@ public class DiscoverClientController {
 
     @GetMapping("/dc")
     public String dc() {
-        try {
+        /*try {
             Thread.sleep(5000L);
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
+        }*/
         String services = "Services: " + discoveryClient.getServices();
         System.out.println(services);
         return services;

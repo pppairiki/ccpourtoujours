@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ccpourtoujours.iml" filepath="$PROJECT_DIR$/.idea/ccpourtoujours.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-consumer-ribbon/eureka-consumer-ribbon.iml" filepath="$PROJECT_DIR$/eureka-consumer-ribbon/eureka-consumer-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-stream/spring-stream.iml" filepath="$PROJECT_DIR$/spring-stream/spring-stream.iml" />
     </modules>
   </component>
 </project>

@@ -2,30 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea5e25d1-9ecd-427d-8729-0f4b7cc3f338" name="Default Changelist" comment="feat: hystrix 服务降级">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_8_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_feign_1_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_1_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/sao/EurekaClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_4_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_1_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_1_7_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_1_7_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_1_5_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_5_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_stream_rabbit_1_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zuul_1_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_1_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_1_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_core_1_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_codec_1_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_amqp_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_jmx_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_tuple_1_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tuple_1_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-stream/src/main/java/com/ccpourtoujours/springstream/mq/SinkReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/com/ccpourtoujours/eurekaclient/controller/DiscoverClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/ccpourtoujours/eurekaclient/controller/DiscoverClientController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/EurekaConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/EurekaConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/controller/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-consumer-ribbon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-consumer-ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-consumer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka-consumer/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/eureka-client/target/" />
     <ignored path="$PROJECT_DIR$/eureka-consumer-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/api-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/spring-stream/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,121 +55,95 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/EurekaConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE.jar!/org/springframework/cloud/netflix/hystrix/EnableHystrix.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreaker.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-consumer-ribbon/src/main/java/com/ccpourtoujours/eurekaconsumerribbon/EurekaConsumerRibbonApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/ccpourtoujours/eurekaclient/controller/DiscoverClientController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="350">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-consumer-ribbon/src/main/java/com/ccpourtoujours/eurekaconsumerribbon/controller/RibbonController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-consumer/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/controller/ConsumerController.java">
+        <entry file="file://$PROJECT_DIR$/spring-stream/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-stream/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="800">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-stream/src/main/java/com/ccpourtoujours/springstream/mq/SinkReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/ccpourtoujours/eurekaclient/EurekaClientApplication.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.16/lombok-1.16.16-sources.jar!/lombok/extern/slf4j/Slf4j.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="-519" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/1.2.2.RELEASE/spring-cloud-stream-1.2.2.RELEASE.jar!/org/springframework/cloud/stream/messaging/Sink.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/sao/HystricEurekaClient.java">
+        <entry file="file://$PROJECT_DIR$/api-gateway/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="1350">
+              <caret line="54" column="27" selection-start-line="44" selection-start-column="4" selection-end-line="54" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/ccpourtoujours/apigateway/ApiGatewayApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/ccpourtoujours/eurekaserver/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,18 +172,23 @@
         <option value="$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/controller/DiscoverClientController.java" />
         <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client/src/main/java/com/ccpourtoujours/eurekaclient/EurekaClientApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-consumer-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-consumer-ribbon/src/main/java/com/ccpourtoujours/eurekaconsumerribbon/EurekaConsumerRibbonApplication.java" />
         <option value="$PROJECT_DIR$/eureka-consumer-ribbon/src/main/java/com/ccpourtoujours/eurekaconsumerribbon/controller/RibbonController.java" />
-        <option value="$PROJECT_DIR$/eureka-consumer-ribbon/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/sao/EurekaClient.java" />
         <option value="$PROJECT_DIR$/eureka-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/EurekaConsumerApplication.java" />
         <option value="$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/controller/ConsumerController.java" />
         <option value="$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/sao/HystricEurekaClient.java" />
+        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/ccpourtoujours/apigateway/ApiGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-consumer-ribbon/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-client/src/main/java/com/ccpourtoujours/eurekaclient/controller/DiscoverClientController.java" />
+        <option value="$PROJECT_DIR$/spring-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-stream/src/main/java/com/ccpourtoujours/springstream/mq/SinkReceiver.java" />
       </list>
     </option>
   </component>
@@ -204,7 +200,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2552" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="2576" />
     <option name="height" value="1416" />
@@ -214,7 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,52 +220,42 @@
             <path>
               <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaclient" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaclient" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="apigateway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -278,88 +263,25 @@
             <path>
               <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-stream" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaconsumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="sao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -367,26 +289,26 @@
             <path>
               <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaconsumerribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="springstream" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaconsumerribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="springstream" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ccpourtoujours" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccpourtoujours" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -396,6 +318,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -413,6 +336,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -436,7 +360,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ccpourtoujours.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ccpourtoujours.eurekaclient.EurekaClientApplication" />
@@ -465,6 +396,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringStreamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-stream" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ccpourtoujours.springstream.SpringStreamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -479,7 +417,21 @@
       <workItem from="1560773993761" duration="5505000" />
       <workItem from="1560821985099" duration="29000" />
       <workItem from="1560851973562" duration="1150000" />
-      <workItem from="1560857808554" duration="6835000" />
+      <workItem from="1560857808554" duration="7198000" />
+      <workItem from="1560865745564" duration="280000" />
+      <workItem from="1560907628240" duration="1857000" />
+      <workItem from="1560950405425" duration="681000" />
+      <workItem from="1560994201772" duration="1222000" />
+      <workItem from="1560997497818" duration="1196000" />
+      <workItem from="1561024769926" duration="13000" />
+      <workItem from="1561027872281" duration="637000" />
+      <workItem from="1561080824671" duration="1186000" />
+      <workItem from="1561169054370" duration="1061000" />
+      <workItem from="1561344077067" duration="1318000" />
+      <workItem from="1561458978132" duration="1315000" />
+      <workItem from="1561512848968" duration="848000" />
+      <workItem from="1562654068406" duration="3979000" />
+      <workItem from="1562661063566" duration="577000" />
     </task>
     <task id="LOCAL-00001" summary="feat: first commit">
       <created>1560774502711</created>
@@ -527,12 +479,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13519000" />
+    <option name="totallyTimeSpent" value="30052000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25397456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2810016" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -540,7 +493,6 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" sideWeight="0.49960256" visible="true" weight="0.3928293" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4832424" />
@@ -549,13 +501,14 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32969603" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039744" side_tool="true" weight="0.3928293" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32969603" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49960256" visible="true" weight="0.3928293" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -580,36 +533,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="feat: hystrix 服务降级" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/ccpourtoujours/eurekaserver/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1225">
           <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -627,94 +554,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-consumer-ribbon/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.15/tomcat-embed-core-8.5.15.jar!/org/apache/tomcat/util/net/SocketProcessorBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/sao/SEurekaClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.15/tomcat-embed-core-8.5.15.jar!/org/apache/tomcat/util/net/SocketProcessorBase.class" />
+    <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/sao/EurekaClientImpl.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE.jar!/org/springframework/cloud/netflix/hystrix/EnableHystrix.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreaker.class" />
     <entry file="file://$PROJECT_DIR$/eureka-consumer-ribbon/src/main/java/com/ccpourtoujours/eurekaconsumerribbon/EurekaConsumerRibbonApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="14" column="17" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-consumer-ribbon/src/main/java/com/ccpourtoujours/eurekaconsumerribbon/controller/RibbonController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="225">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
+        <state relative-caret-position="1350">
           <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreaker.class">
+    <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/controller/ConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE.jar!/org/springframework/cloud/netflix/hystrix/EnableHystrix.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/sao/EurekaClientImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="50">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -725,10 +599,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/ccpourtoujours/eurekaclient/controller/DiscoverClientController.java">
+    <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/sao/SEurekaClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="125">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -737,41 +611,144 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/sao/HystricEurekaClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="450">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/EurekaConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="275">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/java/com/ccpourtoujours/eurekaconsumer/controller/ConsumerController.java">
+    <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="587">
+          <caret line="62" column="12" selection-start-line="43" selection-start-column="4" selection-end-line="62" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-consumer-ribbon/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-stream/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/1.2.2.RELEASE/spring-cloud-stream-1.2.2.RELEASE.jar!/org/springframework/cloud/stream/messaging/Sink.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="54" column="27" selection-start-line="44" selection-start-column="4" selection-end-line="54" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/ccpourtoujours/apigateway/ApiGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/ccpourtoujours/eurekaserver/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/ccpourtoujours/eurekaclient/controller/DiscoverClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.16/lombok-1.16.16.jar!/lombok/extern/slf4j/Slf4j.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.16/lombok-1.16.16-sources.jar!/lombok/extern/slf4j/Slf4j.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-519" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-stream/src/main/java/com/ccpourtoujours/springstream/mq/SinkReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-stream/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

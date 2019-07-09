@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-consumer-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-stream/pom.xml" />
       </list>
     </option>
   </component>
