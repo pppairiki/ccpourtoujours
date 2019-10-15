@@ -51,8 +51,33 @@
 
    **provider：** eureka每个服务都会生成自己的InstanceInfo,包括appName,instanceId,port等等实例信息。
 
-   1. 启动后向**register**注册自身服务（instanceinfo）
-   2. 每隔eureka.instance.lease-renewal-interval-in-seconds时间后向**register**发送心跳（renew）
-   3. 每隔eureka.client.instance-info-replication-interval-seconds（一般不配置，因为实例信息基本不会更新）检查本地实例信息是否过期，如果过期通过register()接口向**register**更新InstanceInfo
+   - 启动后向**register**注册自身服务（instanceinfo）
+
+   - 每隔eureka.instance.lease-renewal-interval-in-seconds时间后向**register**发送心跳（renew）
+
+   - 每隔eureka.client.instance-info-replication-interval-seconds（一般不配置，因为实例信息基本不会更新）检查本地实例信息是否过期，如果过期通过register()接口向**register**更新InstanceInfo
+
+   **register：** Eureka注册中心有一个Map来保存所有的服务及映射的机器信息
+
+   ```java
+   private final ConcurrentHashMap<String, Map<String, Lease<InstanceInfo>>> registry
+               = new ConcurrentHashMap<String, Map<String, Lease<InstanceInfo>>>();
+   ```
+
+   - 服务注册时，会把服务的信息写到这个registry中
+   - 服务从治理中心拉取服务列表信息时，不会从这个registry中拉取，而是从一个ResponseCache中拉取，这样读写分离的原因应该是为了支持高并发。
+
+   而ResponseCache又分为了两个部分，一个是ReadWriteMap，一个是ReadOnlyMap。
+
+   - ReadWriteMap的数据是从registry中来的，可以认为是registry的缓存，当服务注册时，除了把信息写到registry中外，还会让ReadWriteMap主动过期，使得会去从registry重新拉取数据。
+   - ReadOnlyMap的数据是从ReadWriteMap来的，可以认为是ReadWriteMap的缓存（所以它是registry缓存的缓存，双层缓存了），当服务需要获取服务列表是，会直接取这个ReadOnlyMap的数据，当这个数据不存在时，才会从ReadWriteMap中更新。
+   - ReadWriteMap与registry的数据是实时一致的（因为有注册后让ReadWriteMap失效的机制），但是ReadWriteMap与ReadOnlyMap不是实时一致的。
+   - 有定时任务会定时从ReadWriteMap同步到ReadOnlyMap，这个时间配置是：eureka.server.responseCacheUpdateInvervalMs
+   - EurekaServer内部有定时任务，每隔检查过期实例时间，扫描Registry里面过期的实例并删除，并且使对应的ReadWriteMap缓存失效，这个时间是eureka.server.eviction-interval-timer-in-ms
+
+   **consumer:** 
+
+   - Service Consumer在启动时会从**register**获取所有服务列表，并在本地缓存。需要注意的是，需要确保配置eureka.client.shouldFetchRegistry=true
+   - 由于在本地有一份缓存，所以需要定期更新，定期更新频率可以通过eureka.client.registryFetchIntervalSeconds配置
 
 5. eureka 自我保护机制
