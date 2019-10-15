@@ -39,12 +39,20 @@
 
    ![1571111703952](C:\Users\riki\AppData\Roaming\Typora\typora-user-images\1571111703952.png)
 
-   
+   - 蓝色节点表示eureka注册中心
+   - 黄色节点表示服务提供者
+   - 淡黄色节点表示服务消费者
+
+   从图中可以看出provider向register注册自身服务，consumer从register获取注册的服务信息进行远程服务调用，各register之间通过复制注册信息做到最终一致性。详细流程后文介绍
 
 4. eureka 服务注册与发现流程
 
    ![1571111874066](C:\Users\riki\AppData\Roaming\Typora\typora-user-images\1571111874066.png)
 
-   如图
+   **provider：** eureka每个服务都会生成自己的InstanceInfo,包括appName,instanceId,port等等实例信息。
 
-5. 
+   1. 启动后向**register**注册自身服务（instanceinfo）
+   2. 每隔eureka.instance.lease-renewal-interval-in-seconds时间后向**register**发送心跳（renew）
+   3. 每隔eureka.client.instance-info-replication-interval-seconds（一般不配置，因为实例信息基本不会更新）检查本地实例信息是否过期，如果过期通过register()接口向**register**更新InstanceInfo
+
+5. eureka 自我保护机制
