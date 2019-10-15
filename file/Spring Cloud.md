@@ -35,4 +35,16 @@
 
    综上，eureka适合作为服务注册发现中心，zk适合更广泛的分布式协调服务。
 
-3. 
+3. 架构
+
+   ![1571111703952](C:\Users\riki\AppData\Roaming\Typora\typora-user-images\1571111703952.png)
+
+   
+
+4. eureka 服务注册与发现流程
+
+   ![1571111874066](C:\Users\riki\AppData\Roaming\Typora\typora-user-images\1571111874066.png)
+
+   如图
+
+5. 
