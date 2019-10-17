@@ -19,7 +19,7 @@
 
 1. 简介
 
-   ​	eureka事Netflix开发的服务发现组件。eureka是纯正的servlet应用，使用了Jersey框架实现自身的Restful http接口。peer之间的同步与服务注册均通过http协议实现。定时任务（发送心跳、定时清理过期服务、节点同步等）通过jdk Timer实现，内存缓存使用google guava实现。
+   ​	eureka是Netflix开发的服务发现组件。eureka是纯正的servlet应用，使用了Jersey框架实现自身的Restful http接口。peer之间的同步与服务注册均通过http协议实现。定时任务（发送心跳、定时清理过期服务、节点同步等）通过jdk Timer实现，内存缓存使用google guava实现。
 
 2. eureka VS Zookeeper
 
